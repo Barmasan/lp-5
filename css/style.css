@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=PT+Sans&display=swap');
+
+/* utilities */
+body{
+font-family: 'PT Sans', sans-serif;
+}
+h1, h2, button{
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+.color-1{
+    background-color: gray;
+}
+.color-2{
+    background-color: cadetblue;
+}
+.color-3{
+    background-color: aliceblue;
+}
+.color-4{
+    background-color: #222222;
+}
+.color-4 * {
+    color: white;
+}
+
+@media (max-width: 576px){
+
+}
+/* utilities END */
+
+
+/* bootstrap rewrite */
+.c-btn{
+    border-radius: 20px;
+    border: 0;
+    background-color: red;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+@media (max-width: 576px){
+
+}
+/* bootstrap rewrite END */
+
+
+/* header */
+header{
+    height: 60px;
+}
+
+@media (max-width: 576px){
+    
+}
+/* header END */
+
+
+/* jumbotron */
+.first-screen{
+    width: 100vw;
+    height: calc(100vh - 60px);
+    max-width: 100%;
+    background-image: url(../img/fsbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -120px;
+}
+.first-screen__inner{
+    background: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+.first-screen__title{
+    color: white;
+    font-size: 40px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+.first-screen__button{
+    width: 100%;
+    font-size: 30px;
+}
+
+@media (max-width: 576px){
+    .first-screen__title{
+        color: white;
+        font-size: 100%;
+    }
+    .first-screen__button{
+        width: 100%;
+        font-size: 100%;
+    }
+}
+/* jumbotron END */
+
+
+/* text-block */
+.text-block {
+}
+.text-block__wrapper {
+    padding: 50px 0;
+}
+.text-block__image {
+
+}
+.text-block__button {
+
+}
+.text-block__apps {
+    
+}
+
+@media (max-width: 576px){
+    
+}
+/* text-block END */
+
+
+/* app-dowload */
+.phone{
+    position: relative;
+    overflow: hidden;
+    width: 390px;
+    height: 270px;
+    margin: 0 100px 0 0;
+}
+.phone img{
+    position: absolute;
+    bottom: -230px;
+        width: 100%;
+}
+
+@media (max-width: 576px){
+    
+}
+/* app-dowload END */
+
+
+/* items */
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.items__item {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+@media (max-width: 576px){
+    .items {
+    
+    }
+    .items__item {
+        margin: 10px 0;
+    }
+}
+/* items END */
