@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /
+Sitemap: https://1win-na-android.store/sitemap.xml
+Host: https://1win-na-android.store/

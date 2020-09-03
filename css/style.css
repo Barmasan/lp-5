@@ -325,3 +325,8 @@ footer{
 .relevant-apps__item img{
     max-width: 100%;
 }
+
+table tr{
+    color: white;
+    background-color: #9D26D9;
+}
